@@ -52,7 +52,7 @@ public class CustomerController {
 	@GetMapping("/home")
 	public ResponseEntity<String> home()
 	{
-		return ResponseEntity.ok().body("welcome to Home page namba");
+		return ResponseEntity.ok().body("welcome to Home page namba ellam work aaganum namba");
 	}
 
 }
